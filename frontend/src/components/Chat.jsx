@@ -39,7 +39,7 @@ export default function Chat() {
   return (
     <div className="h-screen flex flex-col bg-gray-50">
       <div className="flex items-center gap-3 bg-purple-600 text-white px-6 py-3 shadow-md">
-        <img src={logo} className="w-10 h-10 rounded-full" />
+        <img src={logo} className="w-10 h-11 rounded-full" />
         <h1 className="text-lg font-semibold">AI Assistant</h1>
       </div>
 
