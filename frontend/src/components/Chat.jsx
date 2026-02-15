@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import logo from "../assets/chatbot.png";
 import axios from "axios";
+import ReactMarkdown from "react-markdown";
+
+
 
 export default function Chat() {
   const [input, setinput] = useState("");
   const [message, setmessage] = useState([]);
-
+  const[loading,Setloading]=useState(false)
+  const ref=useRef(null)
+  useEffect(()=>{
+       ref.current?.scrollIntoView({ behavior: "smooth" });
+  },[message])
   async function handlebutton() {
     if (!input) return;
 
@@ -15,7 +22,7 @@ export default function Chat() {
     ]);
 
     setinput("");
-
+    Setloading(true)
     try {
       const response = await axios.post(
         "http://localhost:5000/api/chat",
@@ -33,6 +40,9 @@ export default function Chat() {
         ...prev,
         { text: "Error from AI", sender: "Ai" }
       ]);
+    }
+    finally{
+      Setloading(false)
     }
   }
 
@@ -53,18 +63,36 @@ export default function Chat() {
                 : "justify-start"
             }`}
           >
+            
+            
             <p
               className={`max-w-2xl px-5 py-3 rounded-2xl shadow-sm ${
-                mess.sender === "user"
+                mess.sender === "Ai"
                   ? "bg-purple-600 text-white"
                   : "bg-white text-gray-800 border"
               }`}
             >
-              {mess.text}
+          <div className="whitespace-pre-wrap leading-relaxed text-[15px]">
+  <ReactMarkdown>
+    {mess.text}
+  </ReactMarkdown>
+</div>
+
+
+
             </p>
           </div>
         ))}
+        {loading && (
+          <div className="flex justify-start">
+            <div className="bg-white border px-5 py-3 rounded-2xl shadow-sm text-gray-600">
+              AI typing...
+            </div>
+          </div>
+        )}
+        <div ref={ref}></div>
       </div>
+      
 
       <div className="p-4 bg-white shadow-md flex gap-3">
   <input
