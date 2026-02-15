@@ -1,0 +1,39 @@
+Fever:
+Fever is a temporary rise in body temperature, often due to infection.
+Drink plenty of fluids, rest well, and monitor temperature.
+If fever lasts more than 3 days or becomes very high, consult a doctor.
+
+Common Cold:
+Common cold is caused by viral infection.
+Symptoms include runny nose, sneezing, mild fever, and sore throat.
+Rest, hydration, and warm fluids may help recovery.
+
+Headache:
+Headaches can occur due to stress, dehydration, lack of sleep, or illness.
+Drinking water, rest, and relaxation may reduce symptoms.
+Persistent or severe headaches require medical advice.
+
+Stomach Pain:
+Stomach pain can be caused by indigestion, infection, or food intolerance.
+Light food, hydration, and rest may help.
+If pain is severe or continuous, consult a doctor.
+
+Dehydration:
+Occurs when body loses more fluids than it takes in.
+Symptoms include thirst, dry mouth, weakness, and dizziness.
+Drink water, ORS, or fluids regularly.
+
+Fatigue:
+Fatigue means feeling tired or lacking energy.
+Common causes include stress, poor sleep, or illness.
+Balanced diet, proper sleep, and hydration help recovery.
+
+Cough:
+Cough may result from cold, infection, or allergies.
+Warm fluids and rest may help.
+Persistent cough should be checked by a doctor.
+
+General Health Advice:
+Maintain balanced diet, regular exercise, good sleep, and hydration.
+Avoid self-medication without professional advice.
+Consult healthcare professionals for serious symptoms.
