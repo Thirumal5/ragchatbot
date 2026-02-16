@@ -5,7 +5,7 @@ dotenv.config();
 import express from "express";
 import cors from "cors";
 import chatroute from "./route/chat.js";
-import chunkroute from './route/chunk.js'
+import chunkroute from './route/embeding.js'
 const app = express();
 
 app.use(cors());
