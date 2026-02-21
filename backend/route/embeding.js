@@ -1,5 +1,6 @@
 import { Router } from "express";
 import fs from "fs";
+import Chunk from "../model/chunk.js";
 import { pipeline } from "@xenova/transformers";
 
 const route = Router();
@@ -30,14 +31,17 @@ route.get("/embedding", async (req, res) => {
       embeddings.push(
        {
         text: chunk,
-        embeddings:Array.from(output.data)
+        embedding:Array.from(output.data)
        }
       )
     }
+    await Chunk.insertMany(embeddings);
+
 
     res.json({
+      success:true,
       totalChunks: chunks.length,
-      embeddings,
+       msg:"Embeding save to Db"
     });
 
   } catch (err) {
