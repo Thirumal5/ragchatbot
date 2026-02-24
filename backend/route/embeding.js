@@ -17,7 +17,7 @@ route.get("/embedding", async (req, res) => {
     const chunks = text
       .split(/\r?\n\r?\n/)
       .map(chunk => chunk.trim())
-      .filter(chunk => chunk.length > 0);
+      .filter(chunk => chunk.length > 0); 
 
     const embeddings=[]
 
