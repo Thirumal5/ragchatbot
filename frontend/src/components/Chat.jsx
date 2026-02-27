@@ -1,115 +1,104 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../assets/chatbot.png";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 
-
-
 export default function Chat() {
-  const [input, setinput] = useState("");
-  const [message, setmessage] = useState([]);
-  const[loading,Setloading]=useState(false)
-  const ref=useRef(null)
-  useEffect(()=>{
-       ref.current?.scrollIntoView({ behavior: "smooth" });
-  },[message])
-  async function handlebutton() {
-    if (!input) return;
+  const [input, setInput] = useState("");
+  const [message, setMessage] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const ref = useRef(null);
 
-    setmessage(prev => [
-      ...prev,
-      { text: input, sender: "user" }
-    ]);
+  useEffect(() => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  }, [message]);
 
-    setinput("");
-    Setloading(true)
+  async function handleSend() {
+    if (!input.trim()) return;
+
+    const userMessage = input;
+    setMessage((prev) => [...prev, { text: userMessage, sender: "user" }]);
+    setInput("");
+    setLoading(true);
+
     try {
       const response = await axios.post(
         "http://localhost:5000/api/chat",
-        { message: input }
+        { message: userMessage }
       );
 
-      setmessage(prev => [
+      setMessage((prev) => [
         ...prev,
-        { text: response.data.reply, sender: "Ai" }
+        { text: response.data.reply, sender: "ai" },
       ]);
-
-    } catch (err) {
-      console.log(err);
-      setmessage(prev => [
+    } catch {
+      setMessage((prev) => [
         ...prev,
-        { text: "Error from AI", sender: "Ai" }
+        { text: "Unable to process request. Please try again.", sender: "ai" },
       ]);
-    }
-    finally{
-      Setloading(false)
+    } finally {
+      setLoading(false);
     }
   }
 
   return (
-    <div className="h-screen flex flex-col bg-gray-50">
-      <div className="flex items-center gap-3 bg-purple-600 text-white px-6 py-3 shadow-md">
-        <img src={logo} className="w-10 h-11 rounded-full" />
-        <h1 className="text-lg font-semibold">AI Assistant</h1>
+    <div className="h-screen bg-[#0b1f33] text-white flex flex-col">
+
+      <div className="border-b border-blue-900 px-8 py-5 text-xl font-semibold tracking-wide bg-[#0e2a47]">
+        DocNow AI
       </div>
 
-      <div className="flex-1 overflow-y-auto px-6 py-6 space-y-5">
+      <div className="flex-1 overflow-y-auto no-scrollbar px-8 py-10 space-y-10 max-w-3xl w-full mx-auto">
+
         {message.map((mess, i) => (
-          <div
-            key={i}
-            className={`flex ${
+          <div key={i} className="flex flex-col space-y-3">
+
+            <div className={`text-xs font-medium tracking-wide ${
+              mess.sender === "user" ? "text-blue-300" : "text-gray-400"
+            }`}>
+              {mess.sender === "user" ? "Patient" : "Doctor AI"}
+            </div>
+
+            <div className={`text-base leading-relaxed ${
               mess.sender === "user"
-                ? "justify-end"
-                : "justify-start"
-            }`}
-          >
-            
-            
-            <p
-              className={`max-w-2xl px-5 py-3 rounded-2xl shadow-sm ${
-                mess.sender === "Ai"
-                  ? "bg-purple-600 text-white"
-                  : "bg-white text-gray-800 border"
-              }`}
-            >
-          <div className="whitespace-pre-wrap leading-relaxed text-[15px]">
-  <ReactMarkdown>
-    {mess.text}
-  </ReactMarkdown>
-</div>
+                ? "text-white"
+                : "text-gray-200"
+            }`}>
+              <ReactMarkdown>{mess.text}</ReactMarkdown>
+            </div>
 
-
-
-            </p>
           </div>
         ))}
+
         {loading && (
-          <div className="flex justify-start">
-            <div className="bg-white border px-5 py-3 rounded-2xl shadow-sm text-gray-600">
-              AI typing...
-            </div>
+          <div className="text-blue-300 text-sm animate-pulse">
+            Analyzing medical context...
           </div>
         )}
+
         <div ref={ref}></div>
       </div>
-      
 
-      <div className="p-4 bg-white shadow-md flex gap-3">
-  <input
-    type="text"
-    value={input}
-    placeholder="Message AI Assistant..."
-    className="flex-1 bg-white rounded-full px-6 py-3 outline-none shadow focus:ring-2 focus:ring-purple-500"
-    onChange={(e) => setinput(e.target.value)}
-  />
+      <div className="border-t border-blue-900 p-6 bg-[#0e2a47]">
+        <div className="max-w-3xl mx-auto flex items-center gap-4 bg-[#102f4f] rounded-lg px-5 py-4">
 
-  <button
-    onClick={handlebutton}
-    className="bg-purple-600 text-white px-6 rounded-full hover:bg-purple-700 transition"
-  >
-    Send
-  </button>
-</div>
+          <input
+            type="text"
+            value={input}
+            placeholder="Describe your symptoms..."
+            className="flex-1 bg-transparent outline-none text-gray-200 placeholder-gray-400"
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleSend()}
+          />
+
+          <button
+            onClick={handleSend}
+            className="bg-blue-500 text-white px-5 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition"
+          >
+            Consult
+          </button>
+
+        </div>
+      </div>
 
     </div>
   );
