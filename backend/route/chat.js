@@ -2,23 +2,33 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import { Router } from "express";
-import { OpenAI } from "openai";
-import { pipeline } from "@xenova/transformers";
 import { MongoClient } from "mongodb";
+import { pipeline } from "@xenova/transformers";
+
+import { ChatOpenAI } from "@langchain/openai";
+import { BufferMemory } from "langchain/memory";
 
 const route = Router();
 
-const client = new OpenAI({
-  apiKey: process.env.GROQ_API_KEY,
-  baseURL: "https://api.groq.com/openai/v1",
-});
-
-
 const mongo = new MongoClient(process.env.MONGO_URL);
 await mongo.connect();
+
 const db = mongo.db("Ragchat");
 const collection = db.collection("chunks");
 
+const llm = new ChatOpenAI({
+  apiKey: process.env.GROQ_API_KEY,
+  configuration: {
+    baseURL: "https://api.groq.com/openai/v1",
+  },
+  model: "llama-3.3-70b-versatile",
+  temperature: 0.2,
+});
+
+const memory = new BufferMemory({
+  returnMessages: true,
+  memoryKey: "chat_history",
+});
 
 let extractor;
 async function getEmbedding(text) {
@@ -41,10 +51,8 @@ route.post("/chat", async (req, res) => {
   const { message } = req.body;
 
   try {
-    
     const queryEmbedding = await getEmbedding(message);
 
-    
     const results = await collection.aggregate([
       {
         $vectorSearch: {
@@ -52,55 +60,56 @@ route.post("/chat", async (req, res) => {
           path: "embedding",
           queryVector: queryEmbedding,
           numCandidates: 100,
-          limit: 2,
+          limit: 3,
         },
       },
     ]).toArray();
 
-
     const context = results.map(doc => doc.text).join("\n\n");
 
-   
-    const response = await client.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
-      messages: [
-        
-          {
-  role: "system",
-  content: `
+    const history = await memory.loadMemoryVariables({});
+    const chatHistory = history.chat_history || [];
+
+    const response = await llm.invoke([
+      {
+        role: "system",
+        content: `
 You are DocNow AI, a responsible 24/7 medical assistant.
 
-Follow these strict rules:
-
-1. Use ONLY the provided medical context to generate answers.
-2. If the context is insufficient, say you do not have enough information.
-3. When a user mentions symptoms:
-   - First ask about duration (how many days).
-   - Ask about severity (mild, moderate, severe).
-   - Ask about related symptoms.
-4. Provide simple, easy-to-understand advice.
-5. Do NOT provide direct prescriptions or exact dosages.
-6. Always recommend consulting a doctor for severe, persistent, or worsening symptoms.
-7. Clearly state that this AI does not replace professional medical consultation.
+Strict rules:
+1. Use ONLY the provided medical context.
+2. If insufficient context, say you do not know.
+3. Ask duration first.
+4. Then ask severity.
+5. Then ask related symptoms.
+6. No prescriptions or dosages.
+7. Recommend doctor if symptoms persist.
+8. Keep answers simple.
+9. This AI does not replace professional medical consultation.
 `
-        },
-        {
-          role: "user",
-          content: `Context:\n${context}\n\nQuestion:\n${message}`,
-        },
-      ],
-    });
+      },
+      ...chatHistory,
+      {
+        role: "user",
+        content: `Medical Context:\n${context}\n\nUser Question:\n${message}`
+      }
+    ]);
+
+    await memory.saveContext(
+      { input: message },
+      { output: response.content }
+    );
 
     res.json({
       success: true,
-      reply: response.choices[0].message.content,
+      reply: response.content,
     });
 
   } catch (err) {
     console.log(err);
-    res.json({
+    res.status(500).json({
       success: false,
-      err: "RAG chat failed",
+      error: "Medical RAG failed",
     });
   }
 });
