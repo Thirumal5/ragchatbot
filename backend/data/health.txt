@@ -120,7 +120,1742 @@ and treatment.
 
 Note: This is general medical information and does not replace
 professional consultation.
+24/7 Medical Assistant Dataset (Verified Base)
+DISCLAIMER: This dataset is for educational purposes only and does not replace professional medical advice.
 
+Disease: Cardiovascular Diseases (CVD)
+
+Common Symptoms:
+- Chest
+- abdomen
+- discomfort
+- in
+- pain
+- the
+- upper
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: stroke
+
+Common Symptoms:
+- arm
+- from
+- in
+- leg
+- one
+- seeing
+- trouble
+- weakness
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Respiratory diseases
+
+Common Symptoms:
+- Cough
+- Fever
+- Runny
+- Sneezing
+- Weakness
+- nose
+- of
+- shortness
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Tuberculosis
+
+Common Symptoms:
+- Chills
+- Coughing
+- Fever
+- Loss
+- Night
+- blood
+- breathlessness
+- chills
+- cough
+- fatigue
+- high fever
+- of
+- sweats
+- up
+- vomiting
+- weight loss
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: chronic obstructive puimonary disease
+
+Common Symptoms:
+- Chest
+- Frequent
+- Lack
+- energy
+- of
+- respiratory
+- tightness
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Diabetes
+
+Common Symptoms:
+- Fatigue
+- Increased
+- Unexplained
+- fatigue
+- irregular sugar level
+- lethargy
+- loss
+- restlessness
+- thirst
+- weight
+- weight loss
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Alzheimer’s Disease
+
+Common Symptoms:
+- Forgetting
+- Misplacing
+- information
+- learned
+- recently
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Malaria
+
+Common Symptoms:
+- Abdominal
+- Diarrhea
+- Headache
+- Muscle
+- Nausea
+- chills
+- diarrhoea
+- headache
+- high fever
+- nausea
+- pain
+- sweating
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Diarrheal Diseases
+
+Common Symptoms:
+- Abdominal
+- Bloating
+- Mucus
+- Nausea
+- in
+- pain
+- stool
+- the
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: covid-19
+
+Common Symptoms:
+- Cough
+- Difficulty
+- Loss
+- Tiredness
+- in
+- of
+- or
+- smell
+- taste
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: chickenpox
+
+Common Symptoms:
+- Headache
+- Loss
+- Tiredness
+- appetite
+- being
+- feeling
+- of
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: common cold
+
+Common Symptoms:
+- Cough.
+- Sneezing
+- Sore
+- congestion
+- throat.
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Diphtheria
+
+Common Symptoms:
+- Difficulty
+- Fever
+- Tiredness
+- and
+- breathing
+- chills
+- rapid
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: HIV/AIDS
+
+Common Symptoms:
+- Headache.
+- aches
+- joint
+- muscle
+- pain
+- rash
+- sore
+- throat
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Measles
+
+Common Symptoms:
+- Dry
+- Red
+- cough
+- eyes
+- inflamed
+- nose
+- runny
+- sore
+- throat
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: meningitis
+
+Common Symptoms:
+- Breathing
+- Muscle
+- cold
+- confusion
+- hands
+- quickly
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: mumps
+
+Common Symptoms:
+- Fever.
+- Headache
+- Loss
+- Muscle
+- Tiredness
+- aches.
+- of
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Pneumonia
+
+Common Symptoms:
+- Feeling
+- Loss
+- Sweating
+- a
+- appetite
+- breathlessness
+- chills
+- cough
+- fatigue
+- high fever
+- lot
+- malaise
+- of
+- phlegm
+- sweating
+- tired
+- very
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Tetanus
+
+Common Symptoms:
+- Fever
+- Headache
+- Seizures
+- Trouble
+- and
+- swallowing
+- sweating
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: cholera
+
+Common Symptoms:
+- dry,
+- eyes
+- glassy
+- nausea
+- or
+- shriveled
+- sunken
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Anthrax
+
+Common Symptoms:
+- Chest
+- Confusion
+- Discomfort
+- Shortness
+- breath
+- of
+- or
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hepatitis
+
+Common Symptoms:
+- Fatigue
+- Loss
+- Nausea
+- and/or
+- appetite
+- of
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Asthma
+
+Common Symptoms:
+- anxiety
+- breathing
+- chronic
+- cough
+- fatigue
+- rapid
+- sighing
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Brain tumor
+
+Common Symptoms:
+- Difficulty
+- Loss
+- Seizures
+- convulsions.
+- of
+- or
+- thinking,
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Bronchitis
+
+Common Symptoms:
+- Fatigue
+- Shortness
+- Slight
+- and
+- breath
+- chills
+- fever
+- of
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Constipation
+
+Common Symptoms:
+- Passing
+- Straining
+- bowel
+- fewer
+- have
+- movements
+- than
+- to
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Food poisoning
+
+Common Symptoms:
+- Diarrhea
+- Diarrhea.
+- Vomiting.
+- bloody
+- stools.
+- with
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Gonorrhoea
+
+Common Symptoms:
+- and
+- at
+- discoloration
+- opening
+- penis
+- swelling
+- the
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Migraine
+
+Common Symptoms:
+- Food
+- Mood
+- acidity
+- blurred and distorted vision
+- changes,
+- cravings
+- depression
+- euphoria
+- excessive hunger
+- from
+- headache
+- indigestion
+- to
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Fungal infection
+
+Common Symptoms:
+-  patches
+- dischromic
+- itching
+- nodal skin eruptions
+- skin rash
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Allergy
+
+Common Symptoms:
+- chills
+- continuous sneezing
+- shivering
+- watering from eyes
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: GERD
+
+Common Symptoms:
+- acidity
+- chest pain
+- cough
+- stomach pain
+- ulcers on tongue
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Chronic cholestasis
+
+Common Symptoms:
+- abdominal pain
+- itching
+- loss of appetite
+- nausea
+- vomiting
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Drug Reaction
+
+Common Symptoms:
+- burning micturition
+- itching
+- skin rash
+- spotting 
+- stomach pain
+- urination
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Peptic ulcer diseae
+
+Common Symptoms:
+- abdominal pain
+- indigestion
+- loss of appetite
+- passage of gases
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: AIDS
+
+Common Symptoms:
+- extra marital contacts
+- high fever
+- muscle wasting
+- patches in throat
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Gastroenteritis
+
+Common Symptoms:
+- dehydration
+- diarrhoea
+- sunken eyes
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Bronchial Asthma
+
+Common Symptoms:
+- breathlessness
+- cough
+- family history
+- fatigue
+- high fever
+- mucoid sputum
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hypertension
+
+Common Symptoms:
+- chest pain
+- dizziness
+- headache
+- lack of concentration
+- loss of balance
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Cervical spondylosis
+
+Common Symptoms:
+- back pain
+- dizziness
+- loss of balance
+- neck pain
+- weakness in limbs
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Paralysis (brain hemorrhage)
+
+Common Symptoms:
+- altered sensorium
+- headache
+- vomiting
+- weakness of one body side
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Jaundice
+
+Common Symptoms:
+- fatigue
+- high fever
+- itching
+- vomiting
+- weight loss
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Chicken pox
+
+Common Symptoms:
+- fatigue
+- headache
+- high fever
+- itching
+- lethargy
+- skin rash
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Dengue
+
+Common Symptoms:
+- chills
+- fatigue
+- headache
+- high fever
+- joint pain
+- skin rash
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Typhoid
+
+Common Symptoms:
+- chills
+- constipation
+- fatigue
+- headache
+- high fever
+- nausea
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: hepatitis A
+
+Common Symptoms:
+- dark urine
+- joint pain
+- loss of appetite
+- nausea
+- vomiting
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hepatitis B
+
+Common Symptoms:
+- dark urine
+- fatigue
+- itching
+- lethargy
+- loss of appetite
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hepatitis C
+
+Common Symptoms:
+- fatigue
+- loss of appetite
+- nausea
+- yellowing of eyes
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hepatitis D
+
+Common Symptoms:
+- dark urine
+- fatigue
+- joint pain
+- nausea
+- vomiting
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hepatitis E
+
+Common Symptoms:
+- dark urine
+- fatigue
+- high fever
+- joint pain
+- vomiting
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Alcoholic hepatitis
+
+Common Symptoms:
+- abdominal pain
+- swelling of stomach
+- vomiting
+- yellowish skin
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Common Cold
+
+Common Symptoms:
+- chills
+- continuous sneezing
+- cough
+- fatigue
+- headache
+- high fever
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Dimorphic hemmorhoids(piles)
+
+Common Symptoms:
+- bloody stool
+- constipation
+- pain during bowel movements
+- pain in anal region
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Heart attack
+
+Common Symptoms:
+- breathlessness
+- chest pain
+- sweating
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Varicose veins
+
+Common Symptoms:
+- bruising
+- cramps
+- fatigue
+- obesity
+- swollen blood vessels
+- swollen legs
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hypothyroidism
+
+Common Symptoms:
+- cold hands and feets
+- dizziness
+- fatigue
+- lethargy
+- mood swings
+- weight gain
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hyperthyroidism
+
+Common Symptoms:
+- diarrhoea
+- fatigue
+- mood swings
+- restlessness
+- sweating
+- weight loss
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Hypoglycemia
+
+Common Symptoms:
+- anxiety
+- fatigue
+- headache
+- nausea
+- sweating
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Osteoarthristis
+
+Common Symptoms:
+- hip joint pain
+- joint pain
+- knee pain
+- neck pain
+- swelling joints
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Arthritis
+
+Common Symptoms:
+- movement stiffness
+- muscle weakness
+- stiff neck
+- swelling joints
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: (vertigo) Paroymsal Positional Vertigo
+
+Common Symptoms:
+- headache
+- loss of balance
+- nausea
+- spinning movements
+- unsteadiness
+- vomiting
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Acne
+
+Common Symptoms:
+- blackheads
+- pus filled pimples
+- scurring
+- skin rash
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Urinary tract infection
+
+Common Symptoms:
+- bladder discomfort
+- burning micturition
+- foul smell of
+- urine
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Psoriasis
+
+Common Symptoms:
+- joint pain
+- silver like dusting
+- skin peeling
+- skin rash
+- small dents in nails
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
+
+Disease: Impetigo
+
+Common Symptoms:
+- blister
+- high fever
+- red sore around nose
+- skin rash
+- yellow crust ooze
+
+Severity Level:
+Consult a healthcare professional for severity assessment.
+
+Recommended Action:
+Consult a healthcare professional for proper diagnosis and treatment.
+
+When To Seek Immediate Care:
+Seek urgent medical attention if symptoms are severe, sudden, or worsening.
+
+Recommended Doctor Type:
+General Physician or relevant specialist depending on symptoms.
+
+Medical Disclaimer:
+This information is general medical guidance and does not replace professional consultation.
+------------------------------------------------------------
 Disease: common cold
 
 Common Symptoms: Sore throat. Cough. congestion Sneezing
