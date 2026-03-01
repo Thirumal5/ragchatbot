@@ -4,9 +4,7 @@ dotenv.config();
 import { Router } from "express";
 import { MongoClient } from "mongodb";
 import { pipeline } from "@xenova/transformers";
-
 import { ChatOpenAI } from "@langchain/openai";
-import { BufferMemory } from "langchain/memory";
 
 const route = Router();
 
@@ -25,12 +23,8 @@ const llm = new ChatOpenAI({
   temperature: 0.2,
 });
 
-const memory = new BufferMemory({
-  returnMessages: true,
-  memoryKey: "chat_history",
-});
-
 let extractor;
+
 async function getEmbedding(text) {
   if (!extractor) {
     extractor = await pipeline(
@@ -48,7 +42,7 @@ async function getEmbedding(text) {
 }
 
 route.post("/chat", async (req, res) => {
-  const { message } = req.body;
+  const { message, chatHistory = [] } = req.body;
 
   try {
     const queryEmbedding = await getEmbedding(message);
@@ -65,10 +59,9 @@ route.post("/chat", async (req, res) => {
       },
     ]).toArray();
 
-    const context = results.map(doc => doc.text).join("\n\n");
-
-    const history = await memory.loadMemoryVariables({});
-    const chatHistory = history.chat_history || [];
+    const context = results.length
+      ? results.map(doc => doc.text).join("\n\n")
+      : "No strong medical context found.";
 
     const response = await llm.invoke([
       {
@@ -76,75 +69,26 @@ route.post("/chat", async (req, res) => {
         content: `
 You are DocNow AI, a calm and experienced family doctor.
 
-Speak naturally and simply, like a real doctor in a clinic.
-Keep responses short.
-Do not sound robotic.
-Do not mention you are an AI unless asked.
-
-CONVERSATION RULES:
-
-• If the user greets, respond briefly and ask how you can help.
-• If the user says they are fine, respond politely and stop.
-• If the message is unclear or very short, ask one simple clarification question.
-• Do not over-explain.
-• Do not repeat confirmations.
-
-MEDICAL TRIAGE FLOW:
-
-1. Identify the main symptom.
-2. Ask one question at a time.
-3. Do not list multiple questions together.
-4. Investigate gradually like a real doctor.
-
-SYMPTOM PATTERNS:
-
-If PAIN:
-- Ask about injury.
-- Ask about swelling.
-- Ask about numbness.
-- Ask severity.
-
-If FEVER:
-- Ask duration.
-- Ask temperature.
-- Ask related symptoms (cough, vomiting, etc).
-
-If CHEST PAIN:
-- Immediately check breathing.
-- Ask radiation of pain.
-- If severe, classify as emergency.
-
-If HEADACHE:
-- Ask about nausea.
-- Ask about vision issues.
-- Ask severity and onset.
-
-RED FLAG SYMPTOMS:
-Severe pain, breathing difficulty, unconsciousness, high fever (>103°F), chest pain, sudden weakness.
-
-If red flags are present:
-Classify as Severe 🔴 and advise urgent hospital visit.
-
-After sufficient details:
-• Suggest possible condition.
-• Classify risk (Mild 🟢 / Moderate 🟡 / Severe 🔴).
-• Recommend specialist if needed.
-• Give safe general advice.
-• Do NOT give prescriptions or dosage.
-• Clearly state this does not replace professional consultation..
+Rules:
+- Reply in same language as user.
+- Ask one question at a time.
+- Classify severity: Mild 🟢 / Moderate 🟡 / Severe 🔴.
+- If severe → recommend hospital.
+- Do not give prescription dosage.
+- Keep response short.
+- Add disclaimer.
 `
+      },
+      {
+        role: "system",
+        content: `Relevant Medical Context:\n${context}`
       },
       ...chatHistory,
       {
         role: "user",
-        content: `Medical Context:\n${context}\n\nUser Question:\n${message}`
+        content: message
       }
     ]);
-
-    await memory.saveContext(
-      { input: message },
-      { output: response.content }
-    );
 
     res.json({
       success: true,
