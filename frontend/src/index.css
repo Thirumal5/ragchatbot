@@ -1,7 +1,19 @@
 @import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -10,7 +22,7 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY(6px);
   }
   to {
     opacity: 1;
@@ -19,5 +31,5 @@
 }
 
 .animate-fadeIn {
-  animation: fadeIn 0.25s ease-in-out;
+  animation: fadeIn 0.2s ease-out;
 }
